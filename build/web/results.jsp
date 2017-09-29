@@ -19,18 +19,20 @@
         String IDWorker = request.getParameter("ID");
         double Hoursworked = Double.parseDouble(request.getParameter("hoursworked"));
         double Hourlypay = Double.parseDouble(request.getParameter("hourlypay"));
-        double Hsovertime = Hoursworked - 40;
+        double Hsovertime;
         double overtimerate = 1.5 * Hourlypay;
         double grosspay;
         double regularhours = 40;
         double regularpay;
         double overtimepay;
         if (Hoursworked > 40) {
+            Hsovertime = Hoursworked - 40;
         overtimepay = Hsovertime * overtimerate;
         regularpay = regularhours * Hourlypay;
         grosspay = regularpay + overtimepay;}
         else {
-                grosspay = Hoursworked * Hourlypay;
+            Hsovertime = 0;
+            grosspay = Hoursworked * Hourlypay;
     }
         double pretax = Double.parseDouble(request.getParameter("pre-tax"));
         double taxablepay = grosspay - pretax;
@@ -45,7 +47,7 @@
     
     <body>
         <h1>Salary Information</h1>
-        <table border="1">
+        <table id="ma" border="1">
             <tbody>
                 <tr>
                     <td>First Name:</td>

@@ -8,14 +8,16 @@ and open the template in the editor.
     Author     : Hue Bui
 */
 body {
-background-color: #454545;
-color: white;
+background-color: LightSalmon;
+color: black;
+font-family: verdana;
 front-size: 20px; 
 }
 h1 
 {
    front-size: 30px;
 }
-p {
+#ma
+{
     border: 1px solid powderblue;
 }

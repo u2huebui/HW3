@@ -20,31 +20,31 @@
                 <tbody>
                     <tr>
                         <td>First Name:</td>
-                        <td><input type="text" name="first" value="" size="50"></td>  
+                        <td><input type="text" name="first" value="" size="30"></td>  
                     </tr>
                      <tr>
                         <td>Last Name:</td>
-                        <td><input type="text" name="last" value="" size="50"></td>  
+                        <td><input type="text" name="last" value="" size="30"></td>  
                     </tr>
                     <tr>
                         <td>ID Worker:</td>
-                        <td><input type="text" name="ID" value="" size="50"></td>  
+                        <td><input type="text" name="ID" value="" size="30"></td>  
                     </tr>
                      <tr>
                         <td>Hours Worked:</td>
-                        <td><input type="text" name="hoursworked" value="" size="50"></td>  
+                        <td><input type="text" name="hoursworked" value="" size="30"></td>  
                     </tr>
                      <tr>
                         <td>Hourly Pay:</td>
-                        <td><input type="text" name="hourlypay" value="" size="50"></td>  
+                        <td><input type="text" name="hourlypay" value="" size="30"></td>  
                     </tr>
                      <tr>
                         <td>Pre-tax Deduct:</td>
-                        <td><input type="text" name="pre-tax" value="" size="50"></td>  
+                        <td><input type="text" name="pre-tax" value="" size="30"></td>  
                     </tr>
                      <tr>
                         <td>Post-tax Deduct:</td>
-                        <td><input type="text" name="post-tax" value="" size="50"></td>  
+                        <td><input type="text" name="post-tax" value="" size="30"></td>  
                     </tr>
                     
                 </tbody>
