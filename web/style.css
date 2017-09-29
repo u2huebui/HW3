@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2017, 8:48:11 AM
+    Author     : Hue Bui
+*/
+body {
+background-color: #454545;
+color: white;
+front-size: 20px; 
+}
+h1 
+{
+   front-size: 30px;
+}
+p {
+    border: 1px solid powderblue;
+}

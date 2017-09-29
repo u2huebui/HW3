@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Simple Salary Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <h1>Simple Salary Calculator</h1>
@@ -47,9 +48,11 @@
                     </tr>
                     
                 </tbody>
+                <br>
+
         </table>
-            
-            <input type="reset" value="Clear" id="clear"> 
+            <br>
+            <input type="reset" value="Clear" id="clear">
             <input type="submit" value="Submit" id="submit">
         </form>
     </body>
